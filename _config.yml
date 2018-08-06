@@ -7,7 +7,11 @@ url: https://donaldboulton.github.io/web-push-book/
 exclude:
   - _content/chapter-01/00-info.md
   - _content/epub-metadata.yaml
-firebase: "service-642731329222@firebase-rules.iam.gserviceaccount.com"
+firebase: 
+  - serviceAccount: "firebase-adminsdk-w6981@donboulton-210120.iam.gserviceaccount.com"
+  - apiKey: "AIzaSyDE2FsxAT0d3nROmfIZKcWoAuJNyzcmOZA"
+  - publicFacingName: "project-642731329222"
+
 defaults:
   -
     scope:
