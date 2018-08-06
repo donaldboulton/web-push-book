@@ -11,6 +11,8 @@ firebase:
   - serviceAccount: "firebase-adminsdk-w6981@donboulton-210120.iam.gserviceaccount.com"
   - apiKey: "AIzaSyDE2FsxAT0d3nROmfIZKcWoAuJNyzcmOZA"
   - publicFacingName: "project-642731329222"
+  - name: "project-642731329222"
+  - secret: "HhbGUueQ7G6lU0VPiwi2Uw6ovK0YOYaY7wUI9WuR"
 
 defaults:
   -
