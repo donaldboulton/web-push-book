@@ -65,6 +65,7 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
+    wdm (0.1.1)
 
 PLATFORMS
   x64-mingw32
@@ -74,6 +75,7 @@ DEPENDENCIES
   jekyll-github-metadata
   jekyll-sitemap
   kramdown
+  wdm
 
 RUBY VERSION
    ruby 2.3.3p222
