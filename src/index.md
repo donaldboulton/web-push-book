@@ -11,4 +11,4 @@ The push messaging API is still new and the spec has only just started to settle
 You can read about push here on this site *or* grab a copy of this content
 via one of the download links in the footer.
 
-{% include toc.html%}
+{% include toc.html %}
