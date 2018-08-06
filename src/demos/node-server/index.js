@@ -14,13 +14,13 @@ webpush.setGCMAPIKey(gcmServerKey);
 /**** START web-push-vapid ****/
 /**** START vapid-keys ****/
 const vapidKeys = {
-  publicKey: 'BEl62iUYgUivxIkv69yViEuiBIa-Ib9-SkvMeAtA3LFgDzkrxZJjSgSnfckjBJuBkr3qBUYIHBQFLXYp5Nksh8U',
-  privateKey: 'UUxI4O8-FbRouAevSmBQ6o18hgE4nSG3qwvJTfKc-ls'
+  publicKey: 'BOew5Tx7fTX51GzJ7tpF3dDLNS54OvUST_dGGqzJEy54jqW2qghIRTiK7BfOpCPp8xNfMH7Mtprl3hp_WGjgslU',
+  privateKey: 'ymblNrJSzlXdRMhFYdXh1Hda8HkIO76aVs85X93wAjc'
 };
 /**** END vapid-keys ****/
 
 webpush.setVapidDetails(
-  'mailto:web-push-book@gauntface.com',
+  'mailto:donaldboulton@gmail.com',
   vapidKeys.publicKey,
   vapidKeys.privateKey
 );

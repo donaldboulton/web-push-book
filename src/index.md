@@ -1,6 +1,6 @@
 ---
 layout: plain
-title: Web Push Book
+title: Web Push Book DB
 ---
 # Hello
 
