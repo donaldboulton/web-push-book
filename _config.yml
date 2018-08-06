@@ -2,7 +2,7 @@ source: ./build
 destination: ./build/_site/
 layouts_dir: ./jekyll/_layouts/
 includes_dir: ./jekyll/_includes/
-url: https://web-push-book.gauntface.com
+url: https://donaldboulton.github.io/web-push-book/
 
 exclude:
   - _content/chapter-01/00-info.md
