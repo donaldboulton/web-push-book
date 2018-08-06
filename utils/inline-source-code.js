@@ -139,7 +139,7 @@ const writeWFVersion = (filePath, contents) => {
   // Replace site.url with web-push-book.gauntface.com
   const siteurlRegex = /{{site.url}}/g;
   markdownContent = markdownContent.replace(siteurlRegex, (match) => {
-    return 'https://web-push-book.gauntface.com';
+    return 'https://donaldboulton.github.io/web-push-book-db/';
   });
 
   // This swaps out /images/....jpg to ./images/.....jpg

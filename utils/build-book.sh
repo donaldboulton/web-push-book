@@ -39,4 +39,4 @@ $PWD/third_party/kindlegen/kindlegen $DOWNLOADS_PATH/web-push-book.epub -o web-p
 bundle exec jekyll build
 
 npm install -g sitemap-generator-cli
-sitemap-generator https://web-push-book.gauntface.com > build/_site/sitemap.xml
+sitemap-generator https://donaldboulton.github.io/web-push-book-db/ > build/_site/sitemap.xml
