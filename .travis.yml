@@ -15,8 +15,8 @@ addons:
     - inkscape
 
 before_install:
-  - rvm install ruby-2.2.0
-  - rvm --default use 2.2.0
+  - rvm install ruby-2.3.3
+  - rvm --default use 2.3.3
   - gem install bundler
   - rvm . do bundle install
 
