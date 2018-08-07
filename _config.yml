@@ -2,7 +2,7 @@ source: ./build
 destination: ./build/_site/
 layouts_dir: ./jekyll/_layouts/
 includes_dir: ./jekyll/_includes/
-url: https://donaldboulton.github.io/web-push-book/
+url: https://donaldboulton.github.io/web-push-book-db/
 
 exclude:
   - _content/chapter-01/00-info.md
@@ -13,7 +13,7 @@ firebase:
   - publicFacingName: "project-642731329222"
   - name: "project-642731329222"
   - secret: "HhbGUueQ7G6lU0VPiwi2Uw6ovK0YOYaY7wUI9WuR"
-
+  - senderId: "642731329222"
 defaults:
   -
     scope:

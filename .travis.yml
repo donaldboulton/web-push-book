@@ -26,4 +26,4 @@ install:
 
 script:
   - ./utils/build-book.sh
-  - if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_OS_NAME" = "linux" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then firebase deploy --token "$1/LtCMwFT5ffFvm1dD4e2Jr9IUJEzX9vvtVb-6MCWV-Rw" --project default --non-interactive; fi
+  - if [[ "$TRAVIS_BRANCH" = "master" && "$TRAVIS_OS_NAME" = "linux" && "$TRAVIS_PULL_REQUEST" = "false" ]]; then firebase deploy travis encrypt "1/LtCMwFT5ffFvm1dD4e2Jr9IUJEzX9vvtVb-6MCWV-Rw" --add deploy.token  --project donboulton-210120 --non-interactive; fi
