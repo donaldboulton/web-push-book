@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/gauntface/web-push-book.svg?branch=master)](https://travis-ci.org/gauntface/web-push-book)
+[![Build Status](https://travis-ci.org/donaldboulton/web-push-book-db.svg?branch=master)](https://travis-ci.org/donaldboulton/web-push-book-db)
 
 # web-push-book
 
